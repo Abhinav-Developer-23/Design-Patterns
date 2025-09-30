@@ -6,5 +6,10 @@ public class LinuxFactory implements GUIFactory {
     public Button createButton() {
         return new LinuxButton();
     }
+
+    @Override
+    public TextField createTextField() {
+        return new LinuxTextField();
+    }
 }
 
